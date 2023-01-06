@@ -66,7 +66,7 @@ int calculateWork() {
 		paths[i].rank = 0;
 	}
 
-    sort(pairs.begin(), pairs.end(), comparator);
+    sort(pairs.begin(), pairs.end(), comparator);  // uses quicksort
 
     int j = 0; // check if minimum number of arcs has been already found
     for(int i = 0; i< arcs; i++) {
